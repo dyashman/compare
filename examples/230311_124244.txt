@@ -1,0 +1,13 @@
+{
+    "prompt": "female superhero with a cape flying in the sky, (modern disney style)",
+    "negative_prompt": "ugly, deformed, missing limbs, naked, nude",
+    "batch_size": "5",
+    "steps": "25",
+    "seed": 7312531635879877341,
+    "enable_hr": "false",
+    "denoising_strength": "0.7",
+    "cfg_scale": "7",
+    "width": 512,
+    "height": 512,
+    "restore_faces": "true"
+}
