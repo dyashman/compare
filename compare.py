@@ -79,7 +79,7 @@ parser.add_argument('-b', '--batch-size', default='5', help='Number of images to
 parser.add_argument('-s', '--steps', default='25')
 parser.add_argument('-d', '--seed', default='-1', help='Seed to start at, consecutive batch images increment by 1')
 parser.add_argument('-H', '--hires', default='false', help='Enable hi-res fix')
-parser.add_argument('-D', '--denoise', default='0.7', help='Deo-noising strength')
+parser.add_argument('-D', '--denoise', default='0.7', help='De-noising strength')
 parser.add_argument('-c', '--cfg', default='7', help='Config Scale')
 args = parser.parse_args()
 
